@@ -6,7 +6,6 @@ $blue: rgba(43,112,163,1); /* #2b70a3 */
 // $serif:  "proxima-nova", helvetica, tahoma, verdana, sans-serif;
 $jubilat: "jubilat",sans-serif;
 $futura: "futura-pt",sans-serif;
-$adelle: "adelle",serif;
 
 
 $divider: 1px solid rgba(229,229,229,1); /* #E5E5E5 */
@@ -35,6 +34,8 @@ body{
     overflow: hidden;
     margin-bottom: 20px;
     text-align: center;
+    @include animate;
+    @include fadeInDown;
     #headshot{
         display: block;
         height: 75px;
@@ -45,10 +46,6 @@ body{
         -webkit-transition: width 0.25s linear, height 0.25s linear;
         -moz-transition: width 0.25s linear, height 0.25s linear;
         transition: width 0.25s linear, height 0.25s linear;
-    }
-    .intro-copy{
-        margin-left: 20px;
-        padding-top: 15px;
     }
     h1{
         margin: 20px 0 0 0;
@@ -63,8 +60,7 @@ body{
         font-weight: 100;
         font-size: 14px;
         span{
-            font-family: $adelle;
-            font-style: italic;
+            font-family: $jubilat;
             font-size: 16px;
             font-weight: 100;
         }
@@ -76,7 +72,7 @@ body{
 
 
 h1{
-    font-family: $adelle;
-    font-weight: bold;
+    font-family: $jubilat;
+    font-weight: 100;
     font-style: italic;
 }
