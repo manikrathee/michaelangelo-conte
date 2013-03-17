@@ -1,0 +1,42 @@
+/*! Fluence App / Stylesheet built and maintained by Manik Rathee, @manikrathee / Copyright Fluence 2012-2013 */
+ 
+@import "import/normalize";
+@import "import/1140";
+@import "import/core";
+@import "import/mixins";
+@import "import/ss-social";
+@import "import/ss-standard";
+@import "import/animation";
+
+
+@import "styles/base";
+
+
+@media (max-width: 768px) {
+	@import "styles/mobile";
+}
+
+@media (min-width: 769px){
+	@import "styles/small-screen";
+}
+
+@media (min-width: 960px){
+	@import "styles/medium-screen";
+}
+
+@media (min-width: 1300px){
+	@import "styles/large-screen";
+}
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-resolution: 192dpi) { 
+    @import "styles/base";
+}
+
+.oldie{
+	@import "import/ie";
+	@import "styles/small-screen";
+	@import "styles/medium-screen";
+	@import "styles/oldie";
+}
