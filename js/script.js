@@ -7,5 +7,22 @@
 
 //@codekit-prepend "libs/jquery-1.7.1.min.js";
 //@codekit-prepend "libs/ss-standard.js";
-//@codekit-prepend "libs/ss-social.js";
 
+var win = $(window);
+var body = $('body');
+var doc = $(document);
+
+
+// Add .scroll class to body if window scrolled past 10
+
+win.scroll(function() {
+    if ($(window).scrollTop() > 5) {
+        $('#intro').addClass('scroll');
+    }
+});
+
+doc.scroll(function() {
+    if ($(window).scrollTop()) {
+        $('#intro').removeClass('scroll');
+    }
+});
