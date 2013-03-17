@@ -21,7 +21,7 @@ a:link { -webkit-tap-highlight-color: none; }
 /*  Global Elements  */
 body{
     color: lighten(#000, 30%);
-    background: darken(#fff, 5%) url('../images/texture.jpg') 50% 50% repeat;
+    background: darken(#fff, 5%) url('../images/texture.png') 50% 50% repeat;
 }
 #main{
     background: #fff;
@@ -61,6 +61,12 @@ body{
         text-transform: uppercase;
         font-weight: 100;
         font-size: 14px;
+        span{
+            font-family: $adelle;
+            font-style: italic;
+            font-size: 16px;
+            font-weight: 100;
+        }
     }
     a{
         font-size: 14px;
