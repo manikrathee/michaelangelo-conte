@@ -75,7 +75,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8030,
+				"buffer_size": 8104,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +99,7 @@
 			"file": "css/styles/small-screen.scss",
 			"settings":
 			{
-				"buffer_size": 757,
+				"buffer_size": 1078,
 				"line_ending": "Unix"
 			}
 		},
@@ -120,10 +120,18 @@
 			}
 		},
 		{
+			"file": "css/styles/large-screen.scss",
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "js/script.js",
 			"settings":
 			{
-				"buffer_size": 184,
+				"buffer_size": 670,
 				"line_ending": "Windows"
 			}
 		}
@@ -508,15 +516,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 8030,
+						"buffer_size": 8104,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7106,
-								7106
+								7983,
+								7994
 							]
 						],
 						"settings":
@@ -526,7 +534,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2006.0,
+						"translation.y": 3711.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -534,7 +542,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -575,8 +583,8 @@
 						"selection":
 						[
 							[
-								3952,
-								3952
+								1406,
+								1406
 							]
 						],
 						"settings":
@@ -586,7 +594,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 615.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -596,15 +604,15 @@
 					"file": "css/styles/small-screen.scss",
 					"settings":
 					{
-						"buffer_size": 757,
+						"buffer_size": 1078,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								168,
-								168
+								600,
+								600
 							]
 						],
 						"settings":
@@ -612,7 +620,7 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 140.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -669,6 +677,32 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/styles/large-screen.scss",
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
@@ -677,19 +711,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "js/script.js",
 					"settings":
 					{
-						"buffer_size": 184,
+						"buffer_size": 670,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								184,
-								184
+								569,
+								569
 							]
 						],
 						"settings":
