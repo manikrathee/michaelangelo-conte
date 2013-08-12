@@ -54,7 +54,7 @@ background: rgba(255,255,255,0.7);
     h1{
         margin: 20px 0 0 0;
     }
-    
+
     h2, a{
         font-family: $prox;
     }
@@ -163,7 +163,7 @@ h2{
     .description{
         border: none;
         font-size: 12px;
-    }   
+    }
 }
 #awards{
     font-family: $prox;
@@ -187,5 +187,8 @@ h2{
     .award-description{
         font-size: 14px;
         line-height: 1.5;
+    }
+    i {
+        font-weight: 300;
     }
 }
