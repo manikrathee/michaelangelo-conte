@@ -35,15 +35,30 @@ body {
         #headshot{
             height: 45px;
             width: 45px;
+            margin: 10px 0;
+        }
+        .intro-copy{
+            width: 80%;
+            padding-top: 15px;
         }
         h2 {
             display: none;
         }
         h1 {
             float: left;
+            margin: 0;
+            width: 70%;
+            text-align: left;
+            @include box;
         }
         a {
+            display: block;
+            width: 30%;
             float: right;
+            margin: 15px 0 0 0;
+            font-size: 12px;
+            text-align: right;
+            @include box;
         }
     }
 }
