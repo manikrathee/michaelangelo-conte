@@ -75,7 +75,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8104,
+				"buffer_size": 8368,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +91,7 @@
 			"file": "css/styles/base.scss",
 			"settings":
 			{
-				"buffer_size": 4044,
+				"buffer_size": 4445,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,23 +99,7 @@
 			"file": "css/styles/small-screen.scss",
 			"settings":
 			{
-				"buffer_size": 1078,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/styles/retina.scss",
-			"settings":
-			{
-				"buffer_size": 103,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/import/1140.scss",
-			"settings":
-			{
-				"buffer_size": 1477,
+				"buffer_size": 1615,
 				"line_ending": "Unix"
 			}
 		},
@@ -123,7 +107,15 @@
 			"file": "css/styles/large-screen.scss",
 			"settings":
 			{
-				"buffer_size": 133,
+				"buffer_size": 50,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/import/mixins.scss",
+			"settings":
+			{
+				"buffer_size": 2585,
 				"line_ending": "Unix"
 			}
 		},
@@ -172,6 +164,8 @@
 	},
 	"file_history":
 	[
+		"/Users/manikrathee/Dropbox/#Symlink/Development/michaelangelo-conte/css/import/1140.scss",
+		"/Users/manikrathee/Dropbox/#Symlink/Development/michaelangelo-conte/css/styles/retina.scss",
 		"/Users/manikrathee/Dropbox/#Symlink/Development/michaelangelo-conte/css/styles/medium-screen.scss",
 		"/Users/manikrathee/Dropbox/#Symlink/Development/michaelangelo-conte/css/styles/small-screen.scss",
 		"/Users/manikrathee/Dropbox/#Symlink/Development/michaelangelo-conte/css/styles/mobile.scss",
@@ -297,9 +291,7 @@
 		"/Users/manikrathee/Dropbox/#Symlink/RevSystems/medartz/htdocs/css/ss-standard.css",
 		"/Users/manikrathee/Dropbox/#Symlink/RevSystems/medartz/htdocs/js/script.js",
 		"/Users/manikrathee/Dropbox/#Symlink/RevSystems/medartz/htdocs/js/libs/ss-standard.js",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/Landing/htdocs/submit.php",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/Landing/htdocs/js/libs/ketchup.js",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/App/htdocs/static/js/script.js"
+		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/Landing/htdocs/submit.php"
 	],
 	"find":
 	{
@@ -317,6 +309,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</sup>",
+			"<sup>",
 			"</p>",
 			"<p class=\"award award-item\">",
 			"futura",
@@ -442,9 +436,7 @@
 			"0.35",
 			"0,0,0,1",
 			"255,255,255,1",
-			"(255,255,255,1) ",
-			"rgba(0,0,0,1)",
-			"base"
+			"(255,255,255,1) "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -516,25 +508,27 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 8104,
+						"buffer_size": 8368,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7983,
-								7994
+								3679,
+								3679
 							]
 						],
 						"settings":
 						{
 							"is_xml": false,
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3711.0,
+						"translation.y": 1637.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -563,6 +557,8 @@
 						],
 						"settings":
 						{
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -576,25 +572,27 @@
 					"file": "css/styles/base.scss",
 					"settings":
 					{
-						"buffer_size": 4044,
+						"buffer_size": 4445,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1406,
-								1406
+								2280,
+								2280
 							]
 						],
 						"settings":
 						{
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 615.0,
+						"translation.y": 1859.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -604,45 +602,51 @@
 					"file": "css/styles/small-screen.scss",
 					"settings":
 					{
-						"buffer_size": 1078,
+						"buffer_size": 1615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								600,
-								600
+								1327,
+								1327
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 140.0,
+						"translation.y": 122.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "css/styles/retina.scss",
+					"file": "css/styles/large-screen.scss",
 					"settings":
 					{
-						"buffer_size": 103,
+						"buffer_size": 50,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								50,
+								50
 							]
 						],
 						"settings":
 						{
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -653,53 +657,30 @@
 				},
 				{
 					"buffer": 5,
-					"file": "css/import/1140.scss",
+					"file": "css/import/mixins.scss",
 					"settings":
 					{
-						"buffer_size": 1477,
+						"buffer_size": 2585,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								94
+								1992,
+								1992
 							]
 						],
 						"settings":
 						{
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "css/styles/large-screen.scss",
-					"settings":
-					{
-						"buffer_size": 133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								125,
-								125
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 942.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -711,7 +692,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "js/script.js",
 					"settings":
 					{
@@ -728,6 +709,8 @@
 						],
 						"settings":
 						{
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
