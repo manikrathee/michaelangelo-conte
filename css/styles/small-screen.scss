@@ -2,6 +2,12 @@
 /* min-width 768px */
 
 #intro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    max-width: 100%;
     overflow: hidden;
     margin-bottom: 20px;
     text-align: left;
@@ -18,11 +24,6 @@
         padding-top: 32px;
     }
     &.scroll{
-        position: fixed;
-        top: 0;
-        width: 100% !important;
-        max-width: 100% !important;
-        z-index: 999;
         background: #fff;
         text-align: center;
         @include animate;
@@ -32,6 +33,15 @@
         #headshot{
             height: 45px;
             width: 45px;
+        }
+        h2 {
+            display: none;
+        }
+        h1 {
+            float: left;
+        }
+        a {
+            float: right;
         }
     }
 }
