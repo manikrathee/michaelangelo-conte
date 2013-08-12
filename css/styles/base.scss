@@ -108,9 +108,12 @@ h2{
     font-family: $prox;
     color: lighten(#000, 40%);
     border-bottom: $divider;
-    -webkit-transition: margin 0.25s linear;
-    -moz-transition: margin 0.25s linear;
-    transition: margin 0.25s linear;
+    @include transition(margin 0.25s ease-in-out);
+    &:last-child {
+        margin-bottom: 0;
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
 }
 .statement{
     font-family: $jubilat;
@@ -119,8 +122,8 @@ h2{
     font-size: 19px;
     line-height: 1.6;
     border-top: $divider;
-    border-bottom: $divider;
-    padding: 25px 0;
+    // border-bottom: $divider;
+    // padding: 25px 0;
     margin: 25px 0;
 }
 .date{
